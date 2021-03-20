@@ -1,0 +1,22 @@
+{
+
+    "manifest_version": 2,
+    "name": "Bookmark Page",
+    "version": "1.0",
+  
+    "description": "Adds user's bookmarks to an html page",
+    "homepage_url": "https://github.com/hanycopes/firefox-extension",
+
+    "content_scripts": [
+        {
+          "matches": ["*://*.mozilla.org/*"],
+          "js": ["start_page.js"]
+        }
+      ],
+    
+    "permissions": [
+      "bookmarks"
+    ]
+  
+  }
+  
