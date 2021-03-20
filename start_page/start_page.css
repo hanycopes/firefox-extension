@@ -28,9 +28,15 @@ body {
     padding: 10px;
     font-size: 18px;
     border-radius: 8px;
+    box-shadow: 0px 0px 5px rgb(51, 50, 50);
 }
 
-.bookmark-title{
+.bookmark:hover {
+    background-color: #468fa5;
+    box-shadow: 0px 0px 10px rgb(51, 50, 50);
+}
+
+.bookmark-title {
     margin: 0;
     font-size: 18px;
 }
