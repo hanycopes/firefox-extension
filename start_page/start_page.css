@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-color: #294e59;
+    color: white;
+    padding-top: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.bookmarks-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#extension-title {
+    font-size: 35px;
+}
+
+.bookmark-row {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.bookmark {
+    background-color: #366f80;
+    margin: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.bookmark-title{
+    margin: 0;
+    font-size: 18px;
+}
